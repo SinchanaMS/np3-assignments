@@ -17,7 +17,7 @@ h1 {
   text-align: left;
 }
 
-.navBar ul {
+ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -28,4 +28,9 @@ h1 {
   outline: 1px solid black;
   padding: 10px;
   margin: 10px;
+}
+
+.items-list li {
+  outline: 1px solid;
+  padding: 1rem;
 }

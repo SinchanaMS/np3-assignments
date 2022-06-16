@@ -4,6 +4,8 @@ import Q2 from "./20-mar-2022/Q2";
 import NP3twoQ1 from "./22-mar-2022/NP3twoQ1";
 import NP3twoQ2 from "./22-mar-2022/NP3twoQ2";
 import NP3twoQ3 from "./22-mar-2022/NP3twoQ3";
+import NP3threeQ1 from "./23-mar-2022/NP3threeQ1";
+import NP3threeQ2Q3 from "./23-mar-2022/NP3threeQ2Q3";
 
 export default function Router() {
   return (
@@ -13,6 +15,8 @@ export default function Router() {
       <Route path="/np3-2/q1" element={<NP3twoQ1 />} />
       <Route path="/np3-2/q2" element={<NP3twoQ2 />} />
       <Route path="/np3-2/q3" element={<NP3twoQ3 />} />
+      <Route path="/np3-3/q1" element={<NP3threeQ1 />} />
+      <Route path="/np3-3/q2" element={<NP3threeQ2Q3 />} />
     </Routes>
   );
 }
