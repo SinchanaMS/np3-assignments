@@ -28,7 +28,20 @@ export default function NP3twoQ3() {
       <button onClick={addToList}>Add Item</button>
       {todoList.map((item) => (
         <div className="todo-card" key={item.id}>
-          <p onClick={() => markTodo(item)}>{item.item}</p>
+          {/* <p onClick={() => markTodo(item)}>{item.item}</p> */}
+          <label
+            style={{
+              textDecorationLine: item.completed ? "line-through" : "none"
+            }}
+          >
+            <input
+              type="checkbox"
+              value={todoItem}
+              checked={item.completed}
+              onChange={() => markTodo(item)}
+            />
+            {item.item}
+          </label>
           <p>Status: {item.completed ? "completed" : "to-do"}</p>
         </div>
       ))}

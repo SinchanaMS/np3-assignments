@@ -8,7 +8,10 @@ import NP3threeQ1 from "./23-mar-2022/NP3threeQ1";
 import NP3threeQ2Q3 from "./23-mar-2022/NP3threeQ2Q3";
 import NP3fourQ1 from "./24-mar-2022/NP3fourQ1";
 import NP3fourQ2Q3 from "./24-mar-2022/NP3fourQ2";
-import NP3fourQ2 from "./24-mar-2022/NP3fourQ2";
+import NP3fiveQ1 from "./25-mar-2022/NP3fiveQ1";
+import NP3fiveQ2 from "./25-mar-2022/NP3fiveQ2";
+import NP3sixQ1 from "./26-mar-2022/NP3sixQ1";
+import NP3sixQ2 from "./26-mar-2022/NP3sixQ2";
 
 export default function Router() {
   return (
@@ -22,6 +25,10 @@ export default function Router() {
       <Route path="/np3-3/q2" element={<NP3threeQ2Q3 />} />
       <Route path="/np3-4/q1" element={<NP3fourQ1 />} />
       <Route path="/np3-4/q2" element={<NP3fourQ2Q3 />} />
+      <Route path="/np3-5/q1" element={<NP3fiveQ1 />} />
+      <Route path="/np3-5/q2" element={<NP3fiveQ2 />} />
+      <Route path="/np3-6/q1" element={<NP3sixQ1 />} />
+      <Route path="/np3-6/q2" element={<NP3sixQ2 />} />
     </Routes>
   );
 }
