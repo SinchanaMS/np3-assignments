@@ -25,6 +25,12 @@ export default function NavBar() {
         <li>
           <Link to="/np3-3/q2">23rd Mar 2022: Q2/Q3</Link>
         </li>
+        <li>
+          <Link to="/np3-4/q1">24th Mar 2022: Q1</Link>
+        </li>
+        <li>
+          <Link to="/np3-4/q2">24th Mar 2022: Q2/Q3</Link>
+        </li>
       </ul>
     </nav>
   );
